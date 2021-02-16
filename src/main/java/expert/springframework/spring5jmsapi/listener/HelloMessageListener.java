@@ -17,7 +17,7 @@ import javax.print.attribute.standard.Destination;
 import java.util.UUID;
 
 @RequiredArgsConstructor
-//@Component
+@Component
 public class HelloMessageListener {
 
     private final JmsTemplate jmsTemplate;
